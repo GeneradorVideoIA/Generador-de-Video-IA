@@ -20,7 +20,7 @@ jobs:
         run: |
           mkdir proyecto
           unzip -o Generador_De_Video_IA_Android_v2.zip -d proyecto
-          cp -R proyecto/GeneradorDeVideoIA_v2/. .
+          cp -R proyecto/. .
 
       - name: Configurar Java
         uses: actions/setup-java@v4
